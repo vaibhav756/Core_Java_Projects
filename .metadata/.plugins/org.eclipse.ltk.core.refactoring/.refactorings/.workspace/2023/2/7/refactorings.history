@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;UtilPackage&apos; to &apos;UtilPackageClasses&apos;&#x0D;&#x0A;- Original element: &apos;UtilPackage&apos;&#x0D;&#x0A;- Renamed element: &apos;UtilPackage&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;UtilPackage&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=UtilPackage" name="UtilPackageClasses" references="true" stamp="1676180283633" version="1.0"/>
+</session>

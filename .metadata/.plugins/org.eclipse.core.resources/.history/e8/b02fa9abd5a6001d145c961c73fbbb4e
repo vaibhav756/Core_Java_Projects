@@ -1,0 +1,27 @@
+package com;
+
+import java.util.HashMap;
+import java.util.Set;
+import java.util.Map.Entry;
+
+public class IdentityHashMap {
+
+	public static void main(String[] args) {
+
+		HashMap<String,Integer> map=new HashMap<>();
+		map.put("Ram",101);
+		map.put("Sham",102);
+		map.put("Ketan",103);
+		map.put(new String("Ram"),104); //It will not accept duplicate key as it compare key with equals method
+		
+		Set<Entry<String,Integer>> set=map.entrySet();
+		for(Entry entry:set)
+		{
+			System.out.println(entry);
+		}
+		
+		
+
+	}
+
+}

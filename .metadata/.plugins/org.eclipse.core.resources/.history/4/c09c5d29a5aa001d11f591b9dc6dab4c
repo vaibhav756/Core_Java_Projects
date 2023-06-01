@@ -1,0 +1,41 @@
+package com;
+
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+
+public class CallableInterface implements Callable{
+
+	@Override
+	public Object call() throws Exception {
+		Thread currentThread = Thread.currentThread();
+		String name=currentThread.getName();
+		System.out.println(name+" : Call method executed...");
+		return "hi";
+	}
+
+	
+	public static void main(String[] args){
+
+		CallableInterface callableInterface = new CallableInterface();
+		ExecutorService newFixedThreadPool = Executors.newFixedThreadPool(10);
+		for(int i=0;i<15;i++)
+		{
+			try {
+		    Future submit=newFixedThreadPool.submit(callableInterface);
+		    System.out.println(submit.get().toString());
+			}
+			catch(Exception e)
+			{
+			    e.printStackTrace();
+			}
+	        System.out.println(Thread.currentThread());
+		}
+		newFixedThreadPool.shutdown();
+
+	}
+
+
+}

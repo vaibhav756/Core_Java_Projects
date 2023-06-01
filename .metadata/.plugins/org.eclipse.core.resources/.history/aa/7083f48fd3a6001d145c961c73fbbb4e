@@ -1,0 +1,11 @@
+package com;
+
+public class FailSafeMapCollection {
+
+	public static void main(String[] args) {
+		
+		ConcurrentHashMap<Integer,String> chm=new ConcurrentHashMap<>();
+
+	}
+
+}

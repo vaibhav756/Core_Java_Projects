@@ -1,0 +1,15 @@
+package com;
+
+import java.util.HashMap;
+
+public class FailFastMapCollection {
+
+	public static void main(String[] args) {
+
+		HashMap<Integer,String> map=new HashMap<>();
+		map.put(key, value)
+		
+
+	}
+
+}

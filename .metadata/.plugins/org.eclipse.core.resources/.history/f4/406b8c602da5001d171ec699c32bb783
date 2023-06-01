@@ -1,0 +1,21 @@
+package com;
+
+import java.util.ArrayList;
+
+public class CollectionSorting {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Student> al=new ArrayList<>();
+		al.add(new Student(101,"Vaibhav",5));
+		al.add(new Student(102,"Rohan",7));
+		al.add(new Student(103,"Ketan",9));
+		al.add(new Student(104,"Amit",2));
+		al.add(new Student(105,"Gitesh",6));
+		al.add(new Student(106,"Pranay",1));
+		
+		
+		
+	}
+
+}

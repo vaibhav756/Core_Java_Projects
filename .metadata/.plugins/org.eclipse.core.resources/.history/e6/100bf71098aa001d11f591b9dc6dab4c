@@ -1,0 +1,26 @@
+package com;
+
+import java.io.File;
+import java.util.Scanner;
+
+public class ScannerClass {
+
+	public static void main(String[] args)throws Exception {
+		/*Scanner sc=new Scanner(System.in);
+		System.out.println("Enter first number");
+		int numOne=sc.nextInt();
+		
+		System.out.println("Enter Second number");
+		int numTwo=sc.nextInt();
+		
+		System.out.println("Addition of numbers : "+(numOne+numTwo));*/
+		
+		Scanner sc=new Scanner(new File("CustomerReview"));
+		while(sc.hasNext())
+		{
+			System.out.println(sc.next());
+		}
+
+	}
+
+}

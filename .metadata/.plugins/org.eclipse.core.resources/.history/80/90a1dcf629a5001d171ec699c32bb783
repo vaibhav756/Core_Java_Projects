@@ -1,0 +1,12 @@
+package com;
+
+public class SortingDemo {
+
+	public static void main(String[] args) {
+
+		ArrayList al=new ArrayList();
+		
+
+	}
+
+}

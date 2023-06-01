@@ -1,0 +1,11 @@
+package com;
+
+public class FailSafeCollection {
+
+	public static void main(String[] args) {
+		
+		CopyOnWriteArrayList<Integer> c=new CopyOnWriteArrayList<>();
+
+	}
+
+}

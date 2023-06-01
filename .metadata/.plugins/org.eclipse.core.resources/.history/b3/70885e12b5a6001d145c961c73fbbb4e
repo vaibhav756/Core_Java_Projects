@@ -1,0 +1,5 @@
+package com;
+
+public class StudIdComparator implements Comparator<Student>{
+
+}
